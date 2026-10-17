@@ -1,5 +1,13 @@
 # Nara Ground — Integration Layer
 
+**What it is:** The backend integration layer connecting a hackathon-built volunteer-coordination frontend to real campaign infrastructure.
+**Why it existed:** The frontend existed; nothing connected it to real data yet.
+**What I owned:** Explicitly scoped to what's actually mine — the schema and routing logic only. The frontend is the hackathon team's work and isn't included here.
+**Stack:** PostgreSQL, n8n.
+**Production status:** Schema and routing logic complete; webhook endpoints were the next planned piece.
+
+---
+
 The backend integration connecting **Nara**, a volunteer-coordination
 frontend built by a hackathon team, to a campaign's own infrastructure
 (Airtable, PostgreSQL, n8n).
